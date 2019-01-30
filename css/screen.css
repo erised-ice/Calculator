@@ -1,0 +1,40 @@
+.form {
+  padding: 20px;
+  background: pink;
+  width: 100%;
+  max-width: 360px;
+  margin: 15px auto;
+}
+
+.display {
+  width: 100%;
+  font-size: 40px;
+  margin-bottom: 15px;
+  background: wheat;
+}
+
+.keys__inner {
+  display: flex;
+}
+
+.keys__digits {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.button {
+  padding: 5px;
+  font-size: 35px;
+  width: 50px;
+  margin: 5px;
+}
+
+.keys__operations {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button__enter {
+  display: block;
+  width: 110px;
+}

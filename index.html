@@ -4,11 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Calculator</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/screen.css">
 </head>
-<body>
+<body> 
+  <form class="form" method="POST" action="">
+    <input type="text" name="" id="" class="display inner display__inner" disabled>
+    <div class="inner keys__inner">
+      <div class="keys__digits">
+        <button class="button button__digits" value="minus">+/-</button>
+        <button class="button button__digits" value="0">0</button>
+        <button class="button button__digits" value=".">.</button>
+        <button class="button button__digits" value="1">1</button>
+        <button class="button button__digits" value="2">2</button>
+        <button class="button button__digits" value="3">3</button>
+        <button class="button button__digits" value="4">4</button>
+        <button class="button button__digits" value="5">5</button>
+        <button class="button button__digits" value="6">6</button>
+        <button class="button button__digits" value="7">7</button>
+        <button class="button button__digits" value="8">8</button>
+        <button class="button button__digits" value="9">9</button>
+      </div>
+      <div class="keys__operations">
+        <button class="button button__operations">/</button>
+        <button class="button button__operations">c</button>
+        <button class="button button__operations">*</button>
+        <button class="button button__operations">-></button>
+        <button class="button button__operations">-</button>
+        <button class="button button__operations">+</button>
+        <button class="button button__enter">=</button>
+      </div>
+    </div>
+  </form>
+  
   <script src="js/script.js"></script>
 </body>
 </html>
