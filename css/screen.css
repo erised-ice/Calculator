@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
 .form {
   padding: 20px;
-  background: pink;
+  background:  linear-gradient(to top left, #b6f147 36%, #87f52d 100%);
   width: 100%;
-  max-width: 360px;
+  max-width: 330px;
   margin: 15px auto;
 }
 
@@ -10,31 +12,44 @@
   width: 100%;
   font-size: 40px;
   margin-bottom: 15px;
-  background: wheat;
+  background:  linear-gradient(to bottom right, #fffd8e  36%, #fffc56 100%);
+  border: none;
 }
 
 .keys__inner {
   display: flex;
+  justify-content: space-between;
 }
 
 .keys__digits {
   display: flex;
   flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  margin-right: 10px;
 }
 
 .button {
   padding: 5px;
   font-size: 35px;
   width: 50px;
-  margin: 5px;
+  margin-bottom: 10px;
+  background: yellow;
+  background:  linear-gradient(to bottom right, #fdfa21  26%, #eeff00 60%, #d7f33b 90%);
+  border: none;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.button:focus {
+  outline: none;
 }
 
 .keys__operations {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .button__enter {
   display: block;
-  width: 110px;
+  width: 115px;
 }
