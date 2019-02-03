@@ -6,6 +6,8 @@
   width: 100%;
   max-width: 330px;
   margin: 15px auto;
+  box-shadow: #b6f147;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
 .display {
