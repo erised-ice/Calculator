@@ -10,7 +10,11 @@
 </head>
 <body> 
   <form class="form" method="POST" action="">
-    <input type="text" name="" id="" class="display inner display__inner js-display" value="" disabled>
+    <input type="text" id="first-num" class="display">
+    <input type="text" id="second-num" class="display">
+    <p class="result">Результат:
+      <input class="display display--result js-output" type="text" disabled>
+    </p>
     <div class="inner keys__inner">
       <div class="keys__digits">
         <button class="button button__digits" value="minus">+/-</button>
@@ -27,13 +31,13 @@
         <button class="button button__digits js-button-digit" value="9">9</button>
       </div>
       <div class="keys__operations">
-        <button class="button button__operations js-button-operations">/</button>
-        <button class="button button__operations js-button-operations">*</button>
-        <button class="button button__operations js-button-operations">c</button>
-        <button class="button button__operations js-button-operations">-></button>
-        <button class="button button__operations js-button-operations">-</button>
-        <button class="button button__operations js-button-operations" value="sum">+</button>
-        <button class="button button__enter">=</button>
+        <button type="button" class="button button__operations js-button-operations" data-operation="division">&divide;</button>
+        <button type="button" class="button button__operations js-button-operations" data-operation="multiply">&times;</button>
+        <button type="button" class="button button__operations js-button-operations" data-operation="reset">c</button>
+        <button type="button" class="button button__operations js-button-operations">-></button>
+        <button type="button" class="button button__operations js-button-operations" data-operation="subtraction">-</button>
+        <button type="button" class="button button__operations js-button-operations" data-operation="addition">+</button>
+        <button type="button" class="button button__enter">=</button>
       </div>
     </div>
   </form>
